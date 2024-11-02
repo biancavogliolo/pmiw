@@ -1,0 +1,30 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #333;
+}
+
+#canvas-container {
+    position: relative;
+    width: 640px;
+    height: 480px;
+}
+
+button {
+    position: absolute;
+    padding: 30px 50px; /* Aumentado el tamaño del botón */
+    font-size: 18px; /* Aumentado el tamaño del texto */
+    background-color: #39FF14; /* Fondo verde neón */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #32e112;
+}
+
